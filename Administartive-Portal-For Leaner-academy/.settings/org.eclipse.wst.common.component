@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Administartive-Portal-For Leaner-academy">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="mysql-connector-java-8.0.23.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Admin/eclipse-workspace/Administartive-Portal-For Leaner-academy/WebContent/WEB-INF/lib/mysql-connector-java-8.0.23.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="javax.servlet.jsp.jstl-1.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Admin/eclipse-workspace/Administartive-Portal-For Leaner-academy/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="protobuf-java-3.11.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Admin/eclipse-workspace/Administartive-Portal-For Leaner-academy/WebContent/WEB-INF/lib/protobuf-java-3.11.4.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="javax.servlet.jsp.jstl-api-1.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Admin/eclipse-workspace/Administartive-Portal-For Leaner-academy/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="mysql-connector-java-8.0.28.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/mysql jdbc/mysql-connector-java-8.0.28/mysql-connector-java-8.0.28.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <property name="context-root" value="Administartive-Portal-For_Leaner-academyPhase2"/>
+                
+        <property name="java-output-path" value="/Administartive-Portal-For Leaner-academy/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
